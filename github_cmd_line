@@ -1,0 +1,19 @@
+pwd
+git clone https://github.com/nil41/GCP_services.git
+
+//add files to cloned folder
+mv file1.txt GCP_services/
+
+cd GCP_services/
+git add .
+git commit -m "Testing" // if error occurs, then authenticate using following cmds and run this cmd again
+
+  git config--global user.email "nil"
+  git config --global user.email "nil"
+  git config --global user.name "Your Name"
+  git config --global user.name "nil"
+
+git commit -m "Testing"
+git push origin master     // only after this we can uploads files using console
+---------------------------------------------------
+
